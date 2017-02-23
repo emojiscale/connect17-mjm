@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: connect17-mjm
+  host: connect17-mjm
+  disk_quota: 1024M
+  services:
+  - connect17-mjm-cloudantNoSQLDB
